@@ -21,6 +21,7 @@ public class Principal {
 		System.out.println("Informe o seu salário:");
 		int salUsu = leia.nextInt();
 		
+		// Passando o valor da variavel salUsu para o metodo setSalUsu
 		obj.setSalUsu(salUsu);
 		
 		obj.Calculo();
